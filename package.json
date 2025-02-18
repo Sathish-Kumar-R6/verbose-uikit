@@ -1,6 +1,6 @@
 {
   "name": "verbose-uikit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple and Elegant uikit",
   "type": "module",
   "workspaces": [
@@ -32,9 +32,9 @@
   },
   "license": "ISC",
   "dependencies": {
-    "react": "^18.3.1",
+    "packages": "link:packages",
+    "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tsup": "^8.3.6",
     "typescript": "^5.7.3"
   },
   "devDependencies": {
@@ -52,11 +52,15 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
     "prettier": "^3.5.1",
+    "tsup": "^8.3.6",
     "typescript-eslint": "^8.24.1"
   },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
+  },
+  "pnpm": {
+    "overrides": {}
   }
 }

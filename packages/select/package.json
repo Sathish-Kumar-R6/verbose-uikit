@@ -1,5 +1,5 @@
 {
-  "name": "@verbose-uikit/button",
+  "name": "@verbose-uikit/select",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/select.js",
@@ -16,6 +16,11 @@
     "build": "tsup"
   },
   "dependencies": {
-    "react": "^18.0.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
