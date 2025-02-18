@@ -1,1 +1,17 @@
 packages/*/src
+node_modules/
+test/
+
+eslint.config.js
+
+.husky/
+
+#prettier files
+.prettierignore
+.prettierrc.json
+
+.editorconfig
+
+# pnpm files
+pnpm-lock.yaml
+pnpm-workspace.yaml
