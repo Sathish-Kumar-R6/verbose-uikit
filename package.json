@@ -1,0 +1,62 @@
+{
+  "name": "verbose-uikit",
+  "version": "1.0.0",
+  "description": "Simple and Elegant uikit",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint . --fix",
+    "prettify": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,yaml}\"",
+    "lint-staged": "lint-staged",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
+    "commit": "cz"
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx,js,jsx,json,css,yaml}": [
+      "prettier --write"
+    ]
+  },
+  "keywords": [
+    "uikit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sathish-Kumar-R6/verbose-uikit.git"
+  },
+  "author": {
+    "name": "Sathish Kumar",
+    "email": "sathish662001@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^19.0.0",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.24.1",
+    "@typescript-eslint/parser": "^8.24.1",
+    "commitizen": "^4.3.1",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^15.15.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.1",
+    "typescript-eslint": "^8.24.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}

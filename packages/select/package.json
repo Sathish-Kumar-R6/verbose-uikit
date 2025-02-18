@@ -1,0 +1,21 @@
+{
+  "name": "@verbose-uikit/button",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/select.js",
+  "module": "dist/select.esm.js",
+  "types": "dist/select.d.ts",
+  "license": "MIT",
+  "keywords": [
+    "select",
+    "select-tag",
+    "options"
+  ],
+  "scripts": {
+    "lint": "eslint src/ --fix",
+    "build": "tsup"
+  },
+  "dependencies": {
+    "react": "^18.0.0"
+  }
+}
