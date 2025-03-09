@@ -1,5 +1,11 @@
 # verbose-uikit-select
 
+## 1.1.1
+
+### Patch Changes
+
+- dist publish
+
 ## 1.1.0
 
 ### Minor Changes
