@@ -1,1 +1,1 @@
-export { default as Select } from './packages/select/src/select';
+export { Select } from './packages/select';

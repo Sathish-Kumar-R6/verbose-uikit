@@ -34,4 +34,4 @@ function Select({
   );
 }
 
-export default Select;
+export { Select };

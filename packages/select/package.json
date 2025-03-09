@@ -6,6 +6,9 @@
   "module": "dist/select.esm.js",
   "types": "dist/select.d.ts",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "select",
     "select-tag",
