@@ -1,6 +1,6 @@
 {
   "name": "verbose-uikit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple and Elegant uikit",
   "type": "module",
   "workspaces": [
@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky",
     "commit": "cz",
-    "release:version": "changeset version",
+    "version": "changeset version",
     "release": "changeset publish"
   },
   "lint-staged": {

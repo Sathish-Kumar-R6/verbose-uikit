@@ -1,6 +1,6 @@
 {
   "name": "verbose-uikit-select",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "main": "dist/select.js",
   "module": "dist/select.esm.js",
