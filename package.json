@@ -1,11 +1,14 @@
 {
   "name": "verbose-uikit",
-  "version": "1.0.3",
-  "description": "Simple and Elegant uikit",
+  "version": "1.0.4",
+  "description": "Simple and Elegant uikit with customizable UI libraries",
   "type": "module",
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint": "eslint . --fix",
     "prettify": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,yaml}\"",
@@ -14,7 +17,8 @@
     "prepare": "husky",
     "commit": "cz",
     "version": "changeset version",
-    "release": "changeset publish"
+    "release": "changeset publish",
+    "build": "tsup"
   },
   "lint-staged": {
     "**/*.{ts,tsx,js,jsx,json,css,yaml}": [
@@ -37,7 +41,8 @@
     "packages": "link:packages",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "verbose-uikit-select": "1.0.4"
   },
   "devDependencies": {
     "@changesets/cli": "^2.28.1",
