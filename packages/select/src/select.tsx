@@ -1,6 +1,9 @@
 import React from 'react';
-import './select.css';
+import * as styles from './select.module.css';
+import classnames from 'classnames/bind';
 import { SelectOption } from './select.types';
+
+const cx = classnames.bind(styles);
 
 type Props = {
   value: string;
