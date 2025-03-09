@@ -15,3 +15,6 @@ eslint.config.js
 # pnpm files
 pnpm-lock.yaml
 pnpm-workspace.yaml
+
+# changeset
+.changeset/

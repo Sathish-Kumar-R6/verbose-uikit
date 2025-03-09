@@ -1,6 +1,6 @@
 {
-  "name": "@verbose-uikit/select",
-  "version": "1.0.1",
+  "name": "verbose-uikit-select",
+  "version": "1.0.3",
   "type": "module",
   "main": "dist/select.js",
   "module": "dist/select.esm.js",
@@ -11,6 +11,9 @@
     "select-tag",
     "options"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint": "eslint src/ --fix",
     "build": "tsup"
