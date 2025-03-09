@@ -11,6 +11,6 @@ export default defineConfig({
   external: ['react', 'react-dom'],
   noExternal: [],
   loader: {
-    '.css': 'file',
+    '.css': 'local-css',
   },
 });

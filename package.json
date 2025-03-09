@@ -38,11 +38,12 @@
   },
   "license": "ISC",
   "dependencies": {
+    "classnames": "^2.5.1",
     "packages": "link:packages",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "typescript": "^5.7.3",
-    "verbose-uikit-select": "1.0.5"
+    "verbose-uikit-select": "1.1.0"
   },
   "devDependencies": {
     "@changesets/cli": "^2.28.1",
