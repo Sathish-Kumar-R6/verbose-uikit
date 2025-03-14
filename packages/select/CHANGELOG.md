@@ -1,5 +1,11 @@
 # verbose-uikit-select
 
+## 1.1.2
+
+### Patch Changes
+
+- use rollup bundling
+
 ## 1.1.1
 
 ### Patch Changes
